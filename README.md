@@ -87,8 +87,6 @@ email.send(
 These are not implemented (yet), but might show up if I survive work:
 
 - 🎨 Custom HTML templates (so you can stop blaming me for ugly tables)
-- 📄 PDF export of the report
-- 📊 Excel export with clean columns
 - 📎 Email attachments (instead of just inline content)
 - 🧪 Better error reporting/logging (maybe, don't get your hopes up)
 
