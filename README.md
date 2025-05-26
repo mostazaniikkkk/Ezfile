@@ -1,8 +1,8 @@
-# EZ-Watcher 🕵️‍♂️📁
+# EZ-file 🕵️‍♂️📁
 
 **Tired of checking folders manually like it's 2005?**  
 Did your monthly report vanish again and your boss already scheduled a “quick sync”?  
-Don’t worry. *EZ-Watcher* is here to keep you from rage-quitting your job.
+Don’t worry. *EZ-file* is here to keep you from rage-quitting your job.
 
 > ⚠️ **NOTICE**: Currently, the project is in Alpha phase and is considered super unstable.
 
@@ -44,7 +44,7 @@ This tiny library does just enough to make you look like you have your life toge
 ```
 ### 🧪 Get files
 ```python
-from ezwatcher.file import check_json_file
+from ezfile.file import check_json_file
 
 files = check_json_file("example.json")
 
@@ -52,9 +52,9 @@ for f in files: print(f)
 ```
 ### 🧪 Create email
 ```python
-from ezwatcher import Email
+from ezfile import Email
 from email.message import EmailMessage
-from ezwatcher.config import EmailConfig
+from ezfile.config import EmailConfig
 
 msg = EmailMessage()
 config = EmailConfig(
