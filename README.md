@@ -1,9 +1,9 @@
-# EZ-file 🕵️‍♂️📁
+# EZ-Watcher 🕵️‍♂️📁
 ![Dependencies: LOL nope](https://img.shields.io/badge/Dependencies-LOL--nope-ff69b4)
 
 **Tired of checking folders manually like it's 2005?**  
 Did your monthly report vanish again and your boss already scheduled a “quick sync”?  
-Don’t worry. *EZ-file* is here to keep you from rage-quitting your job.
+Don’t worry. *EZ-Watcher* is here to keep you from rage-quitting your job.
 
 > ⚠️ **NOTICE**: Currently, the project is in Alpha phase and is considered super unstable.
 
@@ -45,7 +45,7 @@ This tiny library does just enough to make you look like you have your life toge
 ```
 ### 🧪 Get files
 ```python
-from ezfile.file import check_json_file
+from ezwatcher.file import check_json_file
 
 files = check_json_file("example.json")
 
@@ -53,9 +53,8 @@ for f in files: print(f)
 ```
 ### 🧪 Create email
 ```python
-from ezfile import Email
+from ezwatcher.email import *
 from email.message import EmailMessage
-from ezfile.config import EmailConfig
 
 msg = EmailMessage()
 config = EmailConfig(
