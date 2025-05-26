@@ -1,4 +1,5 @@
 # EZ-file 🕵️‍♂️📁
+![Dependencies: LOL nope](https://img.shields.io/badge/Dependencies-LOL--nope-ff69b4)
 
 **Tired of checking folders manually like it's 2005?**  
 Did your monthly report vanish again and your boss already scheduled a “quick sync”?  
